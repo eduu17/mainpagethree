@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.orderInfo__container {
+  height: 64px;
+  background-color: #000;
+}
+
+.orderInfo__first {
+  width: 25ch;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem 1.375rem 1.125rem 5rem;
+}
+
+.orderInfo__first::after {
+  content: url(../img/detail.svg);
+  position: relative;
+  top: -16px;
+}
+
+.orderInfo__image {
+  margin: 0 0 2rem 0;
+}
+
+.mainText__offer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem 2rem;
+}
+
+.offer__title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.offer--text {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.purchaseInfo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0 2rem 2rem;
+}
+
+.purchaseInfo__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content__text {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.content__code strong {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.content__button {
+  font-size: 0.875rem;
+  align-self: flex-start;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.contactInfo {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1.875rem 1rem 1.875rem;
+}
+
+.contatInfo__content {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.contactInfo__text {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.contactInfo__text em {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
