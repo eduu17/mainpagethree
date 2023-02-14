@@ -29,8 +29,20 @@ img {
   top: -16px;
 }
 
-.orderInfo__image {
-  margin: 0 0 2rem 0;
+.orderInfo__info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 0 1rem 2rem;
+}
+
+#info__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.info__image {
+  width: 60%;
 }
 
 .mainText__offer {
@@ -80,6 +92,7 @@ img {
   color: #fff;
   text-align: center;
   padding: 10px;
+  border-radius: 4px;
 }
 
 .contactInfo {

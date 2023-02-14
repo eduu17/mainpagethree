@@ -3,6 +3,9 @@
     max-width: 500px;
     margin: 0 auto;
   }
+  #info__title {
+    font-size: 2.125rem;
+  }
   .purchaseInfo {
     padding: 1rem 2rem;
   }
